@@ -1,0 +1,21 @@
+{
+  "name": "test-javascript-nodejs",
+  "version": "1.0.0",
+  "description": "The project consists of solving the technical test of a **Spanish company**. I solved the test but then I improved with the resolution of <a href=\"https://www.youtube.com/watch?v=rtq2dNEyhCU\" target=\"_blank\">Midudev's video</a>.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristiannd/test-javascript-nodejs.git"
+  },
+  "author": "cristiannd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristiannd/test-javascript-nodejs/issues"
+  },
+  "homepage": "https://github.com/cristiannd/test-javascript-nodejs#readme",
+  "type": "module"
+}
