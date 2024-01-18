@@ -1,3 +1,5 @@
+// Corregir la función para que funcione correctamente.
+
 import net from "node:net";
 
 export const ping = (ip, callback) => {
