@@ -4,3 +4,15 @@ export function obtenerDatosPromise(callback) {
     callback(null, { data: "datos importantes" });
   }, 2000);
 }
+
+// Resolución:
+export function obtenerDatosPromiseResolved() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve({ data: "datos importantes" });
+    }, 2000);
+  });
+}
+
+const res = await obtenerDatosPromiseResolved();
+console.log(res);
